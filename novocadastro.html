@@ -65,22 +65,75 @@
     </nav>
     
     <main>
+        <h1> Novo Cadastro </h1>
+
+        <p> <input type="radio"> Ativo </p>
     
-        <section id="novocadastro">
+       <form action="cadastro.html" name="novoC" method="post" autocomplete="off">
 
-            <div>
-
-                <input type="radio"> Ativo
+            <h2> 1° Fatos e Dados </h2>
+            <div id="nome">
+                
+                <label for="nome"> Nome </label>
+                <input type="text" id="nome" name="nome">
 
             </div>
 
-            <table>
+            <div id="idade">
                 
-                <caption>Novo Cadastro</caption>
+                <label for="idade"> Idade </label>
+                <input type="date" id="idade" name="idade">
+                
+            </div>
 
-            </table>
+            <div id="email">
 
-        </section>
+                <label for="email"> E-mail </label>
+                <input type="email" id="email" name="email">
+
+            </div>
+
+            <div id="endereco">
+
+                <label for="endereco"> Endereço </label>
+                <input type="text" id="endereco" name="endereco">
+
+            </div>
+
+            <div id="telefone">
+
+                <label for="telefone"> Telefone </label>
+                <input type="number" id="telefone" name="telefone">
+
+            </div>
+
+
+            <div id="outrasinfo">
+
+                <label for="outrasinfo"> Outras informações </label>
+                <input type="text" id="outrasinfo" name="outrasinfo">
+
+            </div>
+
+            <h2> 2° Interesses </h2>
+            <div>
+                <textarea name="interesses" id="interesses" cols="30" rows="10"></textarea>
+            </div>
+
+
+            <h2> 3° Sentimentos </h2>
+            <div>
+                <textarea name="sentimentos" id="sentimentos" cols="30" rows="10"></textarea>
+            </div>
+
+            <h2> 4° Valores </h2>
+            <div>
+                <textarea name="valores" id="valores" cols="30" rows="10"></textarea>
+            </div>
+
+                <input type="submit" value="GRAVAR">
+
+       </form>
        
     </main>
 
