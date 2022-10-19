@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+:root{
+
+    --corFundo: #d86aff;
+    --cor1: #ab3ed8;
+    --cor2:#7f00b2;
+    --cor3: #650099;
+    --cordestaque: #4b0081;
+
+    --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+    --fontdestaque: 'Russo One', sans-serif;
+
+}
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+
+    background-color: white;
+}
+
+header{
+
+    background-color: white;
+}
+
+nav h1{
+
+    padding: 10px;
+    text-align: left;
+
+}
+
+menu{
+
+    display: block;
+
+}
+
+menu > ul{
+
+    list-style-type: none;
+
+}
+
+menu > ul > li > a{
+
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    background-color: grey;
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+menu > ul > li > a:hover{
+
+    background-color: darkgray;
+
+}
+
+i#iconem{
+
+    text-align: left;
+    padding: 10px;
+}
+
+main{
+
+    width: 90vw;
+    background-color: grey;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}

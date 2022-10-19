@@ -7,30 +7,133 @@
     <title>Listagem</title>
 
     <link rel="shortcut icon" href="Imagens/onion.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/styleMenu.css">
+
+    <link rel="stylesheet" href="estilo/styleListagem.css">
 
 </head>
 <body>
     <header> 
-        <h1> Operação Curiosidade </h1>
-        <form action="cadastro.html">
-            <p> <input type="submit" value="Novo Cadastro"></p>
-        </form>
+        <section id="pesquisar">
+
+            <input type="search" placeholder="Pesquisar">
+
+        </section>
+
+        <section id="pessoa">
+
+            <p> Luciano Henrique </p>
+
+        </section>
+
+        <section id="sair">
+
+            <a href="login.html"> Sair </a>
+
+        </section>
+
     </header>
 
     <nav>
-        <img src="Imagens/casa (1).png" alt="Home">
-        <a href="dashboard.html"> Home</a> <br>
 
-        <img src="Imagens/conecte-se.png" alt="Cadastro">
-        <a href="listagem.html"> Cadastro</a> <br>
+        <section id="ioc">
 
-        <img src="Imagens/relatorio.png" alt="Relatorio">
-        <a href="relatorio.html"> Relatório</a>
+            <h1> OC </h1>
+
+        </section>
+
+        <menu> 
+            <ul> 
+                <li> 
+                <a href="dashboard.html"> <span id=" iconem"class="material-symbols-outlined">
+                    home
+                    </span> Home</a> </li>
+
+                <li> 
+                    <a href="cadastro.html"> <span id=" iconem" class="material-symbols-outlined">
+                        how_to_reg
+                        </span> Cadastro</a> </li>
+
+                <li> 
+                    <a href="relatorio.html"> <span id=" iconem" class="material-symbols-outlined">
+                        receipt_long
+                        </span> Relatório</a> </li>
+            </ul>
+
     </nav>
     
     <main>
-    
+       <section id="listagem">
+
+            <div>
+
+                <form onclick="Window.print()">
+
+                        <input type="submit" value="IMPRIMIR">
+                        
+                </form>
+
+            </div>
+
+            <table>
+                <caption> Relatórios > Lista de usuários</caption>
+                    <thead>
+
+                        <tr>
+
+                            <th scope="col" class="nome">nome
+                            <th scope="col" class="email">e-mail
+                            <th scope="col" class="stats">status   
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+
+                            <td class="nome"> Stephanie Nichols
+                            <td class="email"> stephanienichols@gmail.com
+                            <td class="stats"> Ativo
+
+                        </tr>
+
+                        <tr>
+                            
+                            <td class="nome"> Jeffrey Kane
+                            <td class="email"> jeffrey_kane@yahoo.com
+                            <td class="stats"> Ativo
+
+                        </tr>
+
+                        <tr>
+                            
+                            <td class="nome"> Darin Miller
+                            <td class="email"> darinmiller01@gmail.com
+                            <td class="stats"> Ativo
+
+                        </tr>
+
+                        <tr>
+                            
+                            <td class="nome"> Andrew Stuart
+                            <td class="email"> andrewstuart@outlook.com
+                            <td class="stats"> Ativo
+
+                        </tr>
+
+                        <tr>
+                            
+                            <td class="nome"> Valerie Aguilar
+                            <td class="email"> valerie_aguilar@gmail.com
+                            <td class="stats"> Inativo
+
+                        </tr>
+
+                    </tbody>
+
+            </table>
+
+        </section>
     </main>
 
     <aside>

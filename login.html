@@ -7,6 +7,10 @@
     <title>Operação curiosidade</title>
 
     <link rel="shortcut icon" href="Imagens/onion.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <link rel="stylesheet" href="estilo/styleLogin.css">
 
 </head>
@@ -20,22 +24,28 @@
         </nav>
 
         <main>
-         
-            <form action="dashboard.html" method="post" autocomplete="off">
+            <section id="login">
+                <div id="imagem">
+                    <span class="material-icons">person</span>
 
-                <img src="Imagens/curiosidade.png" alt="Imagem sobre curiosidade">
-
-            <h1> Operação curiosidade </h1>
-
-                <p> <label for="iemail"></label> 
-                    <input type="email" name="email" id="iemail" required minlength="10" size="20" placeholder="Email" autocomplete="email"></p>
-
-                <p> <label for="isenha"></label> 
-                    <input type="password" name="senha" id="isenha" required minlength="8" size="20" placeholder="Senha" autocomplete="current-password"></p>
-
-                <p> <input type="submit" value="Entrar"></p>
-
-            </form>
+                </div>
+                
+                <div id="formulario">
+                    <h1> Operação curiosidade </h1>
+                    <form action="dashboard.html" method="post" autocomplete="off">
+        
+                            <div class="campo"> <label for="iemail"></label> 
+                                <input type="email" name="email" id="iemail" required minlength="11" size="20" placeholder="Email" autocomplete="email"></div>
+        
+                            <div class="campo"> <label for="isenha"></label> 
+                                <input type="password" name="senha" id="isenha" required minlength="8" size="20" placeholder="Senha" autocomplete="current-password"></div>
+        
+                            <input type="submit" value="Entrar"> 
+        
+                        </form>
+                </div>
+                
+            </section>
         </main>
 
         <aside>
