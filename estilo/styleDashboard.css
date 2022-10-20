@@ -22,14 +22,35 @@
     padding: 0px;
 }
 
-body, html {
+body, html{
 
-    background-color: white;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vh;
+
 }
 
 header{
 
-    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+
+    height: max-content;
+    border-right-width: 100%;
+
+   /*
+    height: 20vh;
+    width: 100%;*/
+
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+nav{
+
+    height: max-content;
+    width: max-content;
+
 }
 
 nav h1{
@@ -76,7 +97,12 @@ i#iconem{
 
 main{
 
-    width: 90vw;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40vw;
+    width: 50vw;
     background-color: grey;
     margin: auto;
     padding: 10px;
