@@ -34,10 +34,12 @@ header{
 
     position: absolute;
     top: 0%;
-    left: 100%;
+    right: 0%;
 
     height: max-content;
-    border-right-width: 100%;
+    width: 190vh;
+
+    
 
    /*
     height: 20vh;
