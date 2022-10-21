@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+:root{
+
+    --corFundo: #d86aff;
+    --cor1: #ab3ed8;
+    --cor2:#7f00b2;
+    --cor3: #650099;
+    --cordestaque: #4b0081;
+
+    --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+    --fontdestaque: 'Russo One', sans-serif;
+
+}
+
+
+
+main{
+
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 41vw;
+    width: 71vw;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
