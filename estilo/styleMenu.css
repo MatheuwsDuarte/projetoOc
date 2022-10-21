@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    height: 100vh;
+    width: 100vh;
+
+}
+
+html{
+
+    background-color: rgba(128, 128, 128, 0.452);
+}
+
+header{
+
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    height: 10vh;
+    width: 155vh;
+
+    text-align: center;
+
+
+}
+
+section#pesquisar{
+
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.322);
+    
+    border-radius: 10px;
+
+}
+
+header > section#pesquisar > input{
+
+    border-radius: 2px;
+
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+
+}
+
+section#pessoa{
+
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 30vh;
+    background-color: #7f00b2;
+}
+
+header > section#pessoa > div#foto{
+
+    position: absolute;
+    top: 50%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.329);
+
+}
+
+header > section#pessoa >  p{
+
+    width: 30vh;
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+
+    font-family: var(--fontepadrao);
+    font-size: large;
+
+}
+
+header >section#sair{
+
+    font-family: var(--fontdestaque);
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+}
+
+header section#sair > a{
+
+    text-decoration: none;
+}
+
+nav{
+    background-color: whitesmoke;
+    height: 110vh;
+    width: 27vh;
+
+}
+
+nav h1{
+
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fontdestaque);
+    border-radius: 10px;
+    margin: 1px;
+
+    font-size: xx-large;
+
+    background-color: whitesmoke;
+}
+
+menu{
+
+    display: block;
+
+}
+
+menu > ul{
+
+    list-style-type: none;
+
+}
+
+menu > ul > li > a{
+
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.212);
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+menu > ul > li > a:hover{
+
+    background-color: rgba(255, 255, 255, 0.685);
+
+}
+
+i#iconem{
+
+    text-align: left;
+    padding: 10px;
+}
