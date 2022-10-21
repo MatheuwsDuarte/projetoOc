@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
 :root{
 
     --corFundo: #d86aff;
@@ -16,86 +13,6 @@
 
 }
 
-*{
-
-    margin: 0px;
-    padding: 0px;
-}
-
-body, html{
-
-    background-color: whitesmoke;
-    height: 100vh;
-    width: 100vh;
-
-}
-
-header{
-
-    position: absolute;
-    top: 0%;
-    right: 0%;
-
-    height: max-content;
-    width: 190vh;
-
-    
-
-   /*
-    height: 20vh;
-    width: 100%;*/
-
-    background-color: rgba(0, 0, 0, 0.247);
-}
-
-nav{
-
-    height: max-content;
-    width: max-content;
-
-}
-
-nav h1{
-
-    padding: 10px;
-    text-align: left;
-
-}
-
-menu{
-
-    display: block;
-
-}
-
-menu > ul{
-
-    list-style-type: none;
-
-}
-
-menu > ul > li > a{
-
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    text-align: left;
-    background-color: grey;
-    color: black;
-    border-bottom: 2px solid white;
-}
-
-menu > ul > li > a:hover{
-
-    background-color: darkgray;
-
-}
-
-i#iconem{
-
-    text-align: left;
-    padding: 10px;
-}
 
 main{
 
@@ -103,10 +20,160 @@ main{
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 40vw;
-    width: 50vw;
-    background-color: grey;
+    height: 41vw;
+    width: 71vw;
+    background-color: whitesmoke;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
+}
+
+main > section > div#tdec{
+
+
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    top: 15%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.322);
+
+    height: 10vw;
+    width: 13vw;
+
+
+}
+
+main > section > div#tdec > h2{
+
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+
+    font-family: var(--fontepadrao);
+    font-size:xx-large;
+    
+}
+
+main > section > div#tdec > p{
+
+
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+    text-align: right;
+    font-family: var(--fontepadrao);
+
+    
+}
+
+main > section > div#cnoum{
+
+
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.322);
+    height: 10vw;
+    width: 18vw;
+
+
+}
+
+main > section > div#cnoum > h2{
+
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: green;
+
+    font-family: var(--fontepadrao);
+    font-size:xx-large;
+}
+
+main > section > div#cnoum > p{
+
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+    text-align: right;
+
+    font-family: var(--fontepadrao);
+
+    
+}
+
+main > section > div#cpr{
+
+
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    top: 15%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.322);
+
+    height: 10vw;
+    width: 25vw;
+
+
+
+}
+
+main > section > div#cpr > h2{
+
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color:red;
+
+    font-family: var(--fontepadrao);
+    font-size:xx-large;
+    
+}
+
+main > section > div#cpr > p{
+
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+    text-align: right;
+
+    font-family: var(--fontepadrao);
+    
+}
+
+main > section#ultimosC{
+
+
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(128, 128, 128, 0.397);
+
+
 }
