@@ -122,11 +122,10 @@ form > input[type=submit] {
     height: 40px;
 
     background-color: rgba(128, 128, 128, 0.185);
-    color: black;
     border-radius: 10px;
 
-    border-color: white;
     cursor: pointer;
+    font-family: var(--fontdestaque);
 }
 
 form > input[type=submit]:hover {
