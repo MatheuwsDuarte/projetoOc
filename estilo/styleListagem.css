@@ -27,3 +27,106 @@ main{
     padding: 10px;
     border-radius: 10px;
 }
+
+main > section#listagem{
+
+    display: block;
+    position: absolute;
+    padding: 10px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: whitesmoke;
+
+    height: 310px;
+
+
+}
+
+main > section#listagem > table > caption > form > input[type=button]{
+
+    position: relative;
+
+    font-size: 1em;
+    width: 20%;
+    height: 40px;
+
+    background-color: green;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--fontdestaque);
+
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+main > section#listagem> table{
+
+    width: 950px;
+    border-collapse: collapse;
+
+    border-right: none;
+
+    font-family: var(--fontepadrao);
+
+}
+
+main > section#listagem > table > caption{
+
+    color: grey;
+    /*font-weight: bold; */
+    font-family: var(--fontdestaque);
+    font-size: 1.2em;
+    text-align: left;
+    padding-top : 20px;
+    padding-bottom : 30px;
+
+}
+
+main > section#listagem > table > thead{
+
+
+
+}
+
+main > section#listagem > table > thead > tr{ 
+
+
+
+}
+
+main > section#listagem > table > thead > tr >th{ 
+
+    text-align: left;
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.644);
+
+
+}
+
+main > section#listagem > table > tbody > tr{ 
+
+
+
+}
+
+main > section#listagem > table > tbody > tr >td{ 
+
+    border-top: 0.1ch solid;
+    border-color: grey;
+    padding: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main > section#listagem > table > tbody > tr:hover{ 
+
+    color: green;
+ }

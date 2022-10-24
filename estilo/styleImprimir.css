@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+html{
+
+    font-family: 'Courier New', Courier, monospace;
+
+    font-size: 1em;
+    line-height: 1.5 em;
+
+}
+
+header{
+
+    display: none;
+
+}
+
+nav{
+
+    display: none;
+
+}
+
+main > section#listagem > table > caption > form > input[type="button"]{
+
+    display: none;
+
+}
+
+main > section#listagem {
+
+  
+    display: block;
+    margin: auto;
+    text-align: center;
+
+    height: 100%;
+
+
+
+
+}
+

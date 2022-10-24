@@ -27,3 +27,85 @@ main{
     padding: 10px;
     border-radius: 10px;
 }
+
+main > section#relatorio{
+
+    display: block;
+    position: absolute;
+    padding: 10px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: whitesmoke;
+
+    height: 310px;
+
+
+}
+
+main > section#relatorio > table{
+
+    width: 950px;
+    border-collapse: collapse;
+
+    border-right: none;
+
+    font-family: var(--fontepadrao);
+
+}
+
+main > section#relatorio > table > caption{
+
+    color: grey;
+    /*font-weight: bold; */
+    font-family: var(--fontdestaque);
+    font-size: 1.2em;
+    text-align: left;
+    padding-top : 20px;
+    padding-bottom : 30px;
+
+}
+
+main > section#relatorio > table > thead{
+
+
+
+}
+
+main > section#relatorio > table > thead > tr{ 
+
+
+
+}
+
+main > section#relatorio> table > thead > tr >th{ 
+
+    text-align: left;
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.644);
+
+
+}
+
+main > section#relatorio > table > tbody > tr{ 
+
+
+
+}
+
+main > section#relatorio > table > tbody > tr >td{ 
+
+    border-top: 0.1ch solid;
+    border-bottom: 00.1ch solid;
+    border-color: grey;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main > section#relatorio > table > tbody > tr >td > a{ 
+
+    text-decoration: none;
+    color: gray;
+ 
+}

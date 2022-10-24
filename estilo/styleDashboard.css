@@ -22,7 +22,7 @@ main{
     transform: translate(-50%, -50%);
     height: 41vw;
     width: 71vw;
-    background-color: whitesmoke;
+    background-color: rgba(128, 128, 128, 0);
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -31,23 +31,23 @@ main{
 main > section > div#tdec{
 
 
-    display: inline-block;
+    display: block;
     position: absolute;
     padding: 10px;
     top: 15%;
-    left: 11%;
+    left: 13%;
     transform: translate(-50%, -50%);
-    background-color: rgba(128, 128, 128, 0.322);
+    background-color: whitesmoke;
 
     height: 10vw;
-    width: 13vw;
+    width: 15vw;
 
 
 }
 
 main > section > div#tdec > h2{
 
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,17 +55,18 @@ main > section > div#tdec > h2{
     color: blue;
 
     font-family: var(--fontepadrao);
-    font-size:xx-large;
+    font-size: 4em;
     
 }
 
 main > section > div#tdec > p{
 
 
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 85%;
     right: 5%;
+    color: grey;
 
     text-align: right;
     font-family: var(--fontepadrao);
@@ -76,22 +77,23 @@ main > section > div#tdec > p{
 main > section > div#cnoum{
 
 
-    display: inline-block;
+    display: block;
     position: absolute;
     padding: 10px;
     top: 15%;
-    left: 40%;
+    left: 43%;
     transform: translate(-50%, -50%);
-    background-color: rgba(128, 128, 128, 0.322);
+    background-color: whitesmoke;
     height: 10vw;
-    width: 18vw;
+    width: 20vw;
+
 
 
 }
 
 main > section > div#cnoum > h2{
 
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,12 +102,12 @@ main > section > div#cnoum > h2{
     color: green;
 
     font-family: var(--fontepadrao);
-    font-size:xx-large;
+    font-size: 4em;
 }
 
 main > section > div#cnoum > p{
 
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 85%;
     right: 5%;
@@ -113,6 +115,7 @@ main > section > div#cnoum > p{
     text-align: right;
 
     font-family: var(--fontepadrao);
+    color: grey;
 
     
 }
@@ -120,13 +123,14 @@ main > section > div#cnoum > p{
 main > section > div#cpr{
 
 
-    display: inline-block;
+    display: block;
     position: absolute;
     padding: 10px;
     top: 15%;
-    left: 75%;
+    left: 80%;
     transform: translate(-50%, -50%);
-    background-color: rgba(128, 128, 128, 0.322);
+    background-color: whitesmoke;
+
 
     height: 10vw;
     width: 25vw;
@@ -137,7 +141,7 @@ main > section > div#cpr{
 
 main > section > div#cpr > h2{
 
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -146,18 +150,19 @@ main > section > div#cpr > h2{
     color:red;
 
     font-family: var(--fontepadrao);
-    font-size:xx-large;
+    font-size: 4em;
     
 }
 
 main > section > div#cpr > p{
 
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 85%;
     right: 5%;
 
     text-align: right;
+    color: grey;
 
     font-family: var(--fontepadrao);
     
@@ -166,14 +171,68 @@ main > section > div#cpr > p{
 main > section#ultimosC{
 
 
-    display: inline-block;
+    display: block;
     position: absolute;
     padding: 10px;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: rgba(128, 128, 128, 0.397);
+    background-color: whitesmoke;
+
+    height: 310px;
 
 
 }
+
+
+main > section#ultimosC > table{
+
+    width: 950px;
+    border-collapse: collapse;
+
+    border-right: none;
+
+    font-family: var(--fontepadrao);
+
+}
+
+main > section#ultimosC > table > caption{
+
+    color: grey;
+    /*font-weight: bold; */
+    font-family: var(--fontdestaque);
+    font-size: 1.2em;
+    text-align: left;
+    padding-top : 20px;
+    padding-bottom : 30px;
+
+}
+
+main > section#ultimosC > table > thead{
+
+
+
+}
+
+
+main > section#ultimosC > table > thead > tr >th{ 
+
+    text-align: left;
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.644);
+
+
+}
+
+
+main > section#ultimosC > table > tbody > tr >td{ 
+
+    border-top: 0.1ch solid;
+    border-color: grey;
+    padding: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+

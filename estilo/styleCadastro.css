@@ -27,3 +27,101 @@ main{
     padding: 10px;
     border-radius: 10px;
 }
+
+main > section#cadastro{
+
+    display: block;
+    position: absolute;
+    padding: 10px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: whitesmoke;
+
+    height: 310px;
+
+
+}
+
+main > section#cadastro > table > caption > form > input[type=submit]{
+
+    position: relative;
+
+    font-size: 1em;
+    width: 20%;
+    height: 40px;
+
+    background-color: green;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--fontdestaque);
+
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+main > section#cadastro > table{
+
+    width: 950px;
+    border-collapse: collapse;
+
+    border-right: none;
+
+    font-family: var(--fontepadrao);
+
+}
+
+main > section#cadastro > table > caption{
+
+    color: grey;
+    /*font-weight: bold; */
+    font-family: var(--fontdestaque);
+    font-size: 1.2em;
+    text-align: left;
+    padding-top : 20px;
+    padding-bottom : 30px;
+
+}
+
+main > section#cadastro > table > thead{
+
+
+
+}
+
+main > section#cadastro > table > thead > tr{ 
+
+
+
+}
+
+main > section#cadastro > table > thead > tr >th{ 
+
+    text-align: left;
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.644);
+
+
+}
+
+main > section#cadastro > table > tbody > tr{ 
+
+
+
+}
+
+main > section#cadastro > table > tbody > tr >td{ 
+
+    border-top: 0.1ch solid;
+    border-color: grey;
+    padding: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+}

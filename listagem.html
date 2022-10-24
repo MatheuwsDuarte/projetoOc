@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="estilo/styleListagem.css">
     <link rel="stylesheet" href="estilo/styleMenu.css">
 
+    <link rel="stylesheet" href="estilo/styleImprimir.css" media="print">
+
+
 </head>
 <body>
     <header> 
@@ -76,25 +79,22 @@
     <main>
        <section id="listagem">
 
-            <div>
-
-                <form onclick="Window.print()">
-
-                        <input type="submit" value="IMPRIMIR">
-                        
-                </form>
-
-            </div>
-
             <table>
-                <caption> Relatórios > Lista de usuários</caption>
+                <caption> Relatórios > Lista de usuários 
+
+                    <form >
+
+                        <input type="button" value="IMPRIMIR" onclick="window.print()">
+                        
+                    </form>
+                </caption>
                     <thead>
 
                         <tr>
 
-                            <th scope="col" class="nome">nome
-                            <th scope="col" class="email">e-mail
-                            <th scope="col" class="stats">status   
+                            <th scope="col" class="nome">NOME
+                            <th scope="col" class="email">E-MAIL
+                            <th scope="col" class="stats">STATUS   
 
                         </tr>
 

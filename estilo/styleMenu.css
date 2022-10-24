@@ -25,6 +25,8 @@ html{
 
 header{
 
+    display: inline-block;
+    margin: auto;
     position: absolute;
     top: 9%;
     left: 50%;
@@ -36,6 +38,8 @@ header{
     height: 10vh;
     width: 155vh;
 
+    max-width: 300px;
+    min-width: 950px;
     text-align: center;
 
 
@@ -44,6 +48,7 @@ header{
 section#pesquisar{
 
     display: inline-block;
+
     position: absolute;
     padding: 10px;
     top: 50%;
@@ -58,7 +63,7 @@ section#pesquisar{
 header > section#pesquisar > input{
 
     border-radius: 2px;
-
+    
     font-size: 1em;
     width: 100%;
     height: 100%;
@@ -79,6 +84,7 @@ section#pessoa{
 
 header > section#pessoa > div#foto{
 
+    display: block;
     position: absolute;
     top: 50%;
     left: 150%;
@@ -91,6 +97,7 @@ header > section#pessoa > div#foto{
 
 header > section#pessoa >  p{
 
+    display: block;
     width: 30vh;
     position: absolute;
     top: 50%;
@@ -103,6 +110,8 @@ header > section#pessoa >  p{
 }
 
 header >section#sair{
+
+    display: block;
 
     font-family: var(--fontdestaque);
     font-size: large;

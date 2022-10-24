@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="estilo/styleLogin.css">
 
+    <script defer src="scripts/script.js"> </script>
+
 </head>
 <body>
         <header> 
@@ -24,6 +26,7 @@
         </nav>
 
         <main>
+            
             <section id="login">
                 <div id="imagem">
                     <span class="material-icons">person</span>
@@ -32,15 +35,15 @@
                 
                 <div id="formulario">
                     <h1> Operação curiosidade </h1>
-                    <form action="dashboard.html" method="post" autocomplete="off">
+                    <form action="dashboard.html" method="post" autocomplete="off" name="formlogin">
         
                             <div class="campo"> <label for="iemail"></label> 
-                                <input type="email" name="email" id="iemail" required minlength="11" size="20" placeholder="Email" autocomplete="email"></div>
+                                <input type="email" name="email" id="iemail"  minlength="11" size="20" placeholder="Email" autocomplete="email"></div>
         
                             <div class="campo"> <label for="isenha"></label> 
-                                <input type="password" name="senha" id="isenha" required minlength="8" size="20" placeholder="Senha" autocomplete="current-password"></div>
+                                <input type="password" name="senha" id="isenha"  minlength="8" size="20" placeholder="Senha" autocomplete="current-password"></div>
         
-                            <input type="submit" value="LOGIN"> 
+                            <input type="submit" value="LOGIN" onclick="validar()"> 
         
                         </form>
                 </div>
