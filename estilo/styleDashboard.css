@@ -2,17 +2,10 @@
 
 :root{
 
-    --corFundo: #d86aff;
-    --cor1: #ab3ed8;
-    --cor2:#7f00b2;
-    --cor3: #650099;
-    --cordestaque: #4b0081;
-
     --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
     --fontdestaque: 'Russo One', sans-serif;
 
 }
-
 
 main{
 
@@ -20,9 +13,12 @@ main{
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     height: 41vw;
     width: 71vw;
+
     background-color: rgba(128, 128, 128, 0);
+
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -30,18 +26,17 @@ main{
 
 main > section > div#tdec{
 
-
     display: block;
     position: absolute;
     padding: 10px;
     top: 15%;
     left: 13%;
     transform: translate(-50%, -50%);
-    background-color: whitesmoke;
 
     height: 10vw;
     width: 15vw;
 
+    background-color: whitesmoke;
 
 }
 
@@ -52,6 +47,7 @@ main > section > div#tdec > h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     color: blue;
 
     font-family: var(--fontepadrao);
@@ -61,21 +57,19 @@ main > section > div#tdec > h2{
 
 main > section > div#tdec > p{
 
-
     display: block;
     position: absolute;
     top: 85%;
     right: 5%;
+
     color: grey;
 
     text-align: right;
     font-family: var(--fontepadrao);
 
-    
 }
 
 main > section > div#cnoum{
-
 
     display: block;
     position: absolute;
@@ -83,11 +77,11 @@ main > section > div#cnoum{
     top: 15%;
     left: 43%;
     transform: translate(-50%, -50%);
-    background-color: whitesmoke;
+
     height: 10vw;
     width: 20vw;
 
-
+    background-color: whitesmoke;
 
 }
 
@@ -103,6 +97,7 @@ main > section > div#cnoum > h2{
 
     font-family: var(--fontepadrao);
     font-size: 4em;
+
 }
 
 main > section > div#cnoum > p{
@@ -112,30 +107,27 @@ main > section > div#cnoum > p{
     top: 85%;
     right: 5%;
 
-    text-align: right;
-
-    font-family: var(--fontepadrao);
     color: grey;
 
-    
+    text-align: right;
+    font-family: var(--fontepadrao);
+ 
 }
 
 main > section > div#cpr{
 
-
     display: block;
     position: absolute;
-    padding: 10px;
     top: 15%;
     left: 80%;
     transform: translate(-50%, -50%);
-    background-color: whitesmoke;
-
 
     height: 10vw;
     width: 25vw;
 
+    background-color: whitesmoke;
 
+    padding: 10px;
 
 }
 
@@ -161,10 +153,10 @@ main > section > div#cpr > p{
     top: 85%;
     right: 5%;
 
-    text-align: right;
     color: grey;
 
     font-family: var(--fontepadrao);
+    text-align: right;
     
 }
 
@@ -173,24 +165,23 @@ main > section#ultimosC{
 
     display: block;
     position: absolute;
-    padding: 10px;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: whitesmoke;
-
     height: 310px;
 
+    background-color: whitesmoke;
+
+    padding: 10px;
 
 }
-
 
 main > section#ultimosC > table{
 
     width: 950px;
-    border-collapse: collapse;
 
+    border-collapse: collapse;
     border-right: none;
 
     font-family: var(--fontepadrao);
@@ -200,31 +191,25 @@ main > section#ultimosC > table{
 main > section#ultimosC > table > caption{
 
     color: grey;
+
     /*font-weight: bold; */
     font-family: var(--fontdestaque);
     font-size: 1.2em;
     text-align: left;
+
     padding-top : 20px;
     padding-bottom : 30px;
 
 }
 
-main > section#ultimosC > table > thead{
-
-
-
-}
-
-
 main > section#ultimosC > table > thead > tr >th{ 
 
     text-align: left;
     text-decoration: none;
+
     color: rgba(128, 128, 128, 0.644);
 
-
 }
-
 
 main > section#ultimosC > table > tbody > tr >td{ 
 
@@ -234,5 +219,3 @@ main > section#ultimosC > table > tbody > tr >td{
 
     font-family: 'Courier New', Courier, monospace;
 }
-
-

@@ -2,17 +2,10 @@
 
 :root{
 
-    --corFundo: #d86aff;
-    --cor1: #ab3ed8;
-    --cor2:#7f00b2;
-    --cor3: #650099;
-    --cordestaque: #4b0081;
-
     --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
     --fontdestaque: 'Russo One', sans-serif;
 
 }
-
 
 main{
 
@@ -20,9 +13,12 @@ main{
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     height: 41vw;
     width: 71vw;
+
     background-color: whitesmoke;
+
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -32,46 +28,45 @@ main > section#cadastro{
 
     display: block;
     position: absolute;
-    padding: 10px;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: whitesmoke;
-
     height: 310px;
 
+    background-color: whitesmoke;
+
+    padding: 10px;
 
 }
 
 main > section#cadastro > table > caption > form > input[type=submit]{
 
     position: relative;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
 
-    font-size: 1em;
     width: 20%;
     height: 40px;
 
     background-color: green;
     color: white;
-
+  
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
+    font-size: 1em;
     font-family: var(--fontdestaque);
 
-    top: 20%;
-    left: 80%;
-    transform: translate(-50%, -50%);
 }
-
-
 
 main > section#cadastro > table{
 
     width: 950px;
-    border-collapse: collapse;
 
+    border-collapse: collapse;
     border-right: none;
 
     font-family: var(--fontepadrao);
@@ -82,38 +77,22 @@ main > section#cadastro > table > caption{
 
     color: grey;
     /*font-weight: bold; */
-    font-family: var(--fontdestaque);
-    font-size: 1.2em;
-    text-align: left;
+
     padding-top : 20px;
     padding-bottom : 30px;
 
-}
-
-main > section#cadastro > table > thead{
-
-
-
-}
-
-main > section#cadastro > table > thead > tr{ 
-
-
+    font-family: var(--fontdestaque);
+    font-size: 1.2em;
+    text-align: left;
 
 }
 
 main > section#cadastro > table > thead > tr >th{ 
 
-    text-align: left;
-    text-decoration: none;
     color: rgba(128, 128, 128, 0.644);
 
-
-}
-
-main > section#cadastro > table > tbody > tr{ 
-
-
+    text-align: left;
+    text-decoration: none;
 
 }
 
@@ -124,4 +103,5 @@ main > section#cadastro > table > tbody > tr >td{
     padding: 10px;
 
     font-family: 'Courier New', Courier, monospace;
+
 }

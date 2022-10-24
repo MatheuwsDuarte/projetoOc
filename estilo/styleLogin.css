@@ -1,21 +1,13 @@
 @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 :root{
-
-    --corFundo: #d86aff;
-    --cor1: #ab3ed8;
-    --cor2:#7f00b2;
-    --cor3: #650099;
-    --cordestaque: black;
 
     --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
     --fontdestaque: 'Russo One', sans-serif;
 
 }
-
 
 *{
     margin: 0px;
@@ -26,7 +18,6 @@
 
 body{
 
-
     height: 100vh;
     width: 100vh;
 
@@ -34,9 +25,10 @@ body{
 
 html{
 
-    background-color: rgba(128, 128, 128, 0.356);
     height: 100vh;
     width: 100vh;
+
+    background-color: rgba(128, 128, 128, 0.356);
 
 }
 
@@ -45,7 +37,6 @@ main{
     height: 100vh;
     width: 100vh;
 
-   
 }
 
 header{
@@ -53,6 +44,7 @@ header{
     min-height: 150px;
     height: 100vh;
     width: 100vh;
+
 }
 
 section#login{
@@ -61,13 +53,15 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.096);
-    background-color: rgba(128, 128, 128, 0.425); 
-    padding: 10px;
-    border-radius: 20px;
 
     width: 310px;
     height: 250px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.096);
+    background-color: rgba(128, 128, 128, 0.425); 
+
+    padding: 10px;
+    border-radius: 20px;
 
     text-align: center;
 }
@@ -80,15 +74,19 @@ section#login > div#imagem{
 }
 
 section#login > div#formulario{
+
     display: block;
     padding: 10px;
+
 }
 
 div#formulario > h1{
 
+    margin-bottom: 10px;
+
     font-family: var(--fontdestaque);
     text-align: center;
-    margin-bottom: 10px;
+
 }
 
 div#formulario > p{
@@ -98,36 +96,44 @@ div#formulario > p{
 
 form > div.campo{
 
-    background-color: #650099;
     display: block;
+
     width: 100%;
     height: 40px;
+
+    background-color: #650099;
+
     border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > input{
 
-    font-size: 1em;
     width: 100%;
     height: 100%;
+
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+
+    font-size: 1em;
+
 }
 
 form > input[type=submit] { 
 
     display: block;
-    font-size: 1em;
+
     width: 100%;
     height: 40px;
 
     background-color: rgba(128, 128, 128, 0.185);
+    
     border-radius: 10px;
-
     cursor: pointer;
+
     font-family: var(--fontdestaque);
+    font-size: 1em;
 }
 
 form > input[type=submit]:hover {
